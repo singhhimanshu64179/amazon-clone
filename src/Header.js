@@ -34,10 +34,14 @@ function Header() {
                         <span className="header_optionLineTwo">{user ? 'Sign Out' : 'Sign In'}</span>
                     </div>
                 </Link>
-                <div className="header_option">
-                    <span className="header_optionLineOne">Returns</span>
-                    <span className="header_optionLineTwo">& Orders</span>
-                </div>
+
+                <Link to="/Orders">
+                    <div className="header_option">
+                        <span className="header_optionLineOne">Returns</span>
+                        <span className="header_optionLineTwo">& Orders</span>
+                    </div>
+                </Link>
+    
                 <div className="header_option">
                     <span className="header_optionLineOne">Your</span>
                     <span className="header_optionLineTwo">Prime</span>
